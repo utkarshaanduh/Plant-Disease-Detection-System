@@ -2,6 +2,70 @@
 
 The Plant Disease Detection System is a machine learning-based solution designed to classify plant diseases accurately using image data. This project utilizes a deep convolutional neural network (CNN) to detect 38 different types of plant diseases, aiding farmers and agricultural experts in early detection and treatment.
 
+# Installing Dependencies
+
+To set up your environment with the required dependencies for the Plant Disease Detection System, follow the steps below:
+
+## Prerequisites
+
+Ensure you have Python 3.8 or later installed on your system. You can check your Python version by running:
+
+```bash
+python --version
+```
+
+## Steps
+
+1. **Clone the Repository**
+
+   If you haven't already, clone the repository:
+
+   ```bash
+   git clone <repository_url>
+   cd <repository_directory>
+   ```
+
+2. **Create a Virtual Environment** (Optional but recommended)
+
+   Create and activate a virtual environment to keep your dependencies isolated:
+
+   - **For macOS/Linux**:
+     ```bash
+     python3 -m venv env
+     source env/bin/activate
+     ```
+
+   - **For Linux**:
+     ```bash
+     python3 -m venv env
+     source env/bin/activate
+     ```
+
+   - **For Windows**:
+     ```bash
+     python -m venv env
+     .\env\Scripts\activate
+     ```
+
+3. **Install Dependencies**
+
+   Run the following command to install all required dependencies from `requirements.txt`:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Verify Installation**
+
+   Ensure all packages are installed correctly by checking their versions. For example:
+
+   ```bash
+   python -m pip show tensorflow
+   ```
+
+You're now ready with the requirements of the project!
+
+
 # Dataset
 
 We used the New Plant Diseases Dataset from Kaggle. The dataset contains labeled images of healthy and diseased plant leaves, which serve as training and validation data for the model.
@@ -93,7 +157,10 @@ Clone the repository and load the dataset.
 
 Train the model using the provided architecture.
 
+
 # Prediction:
+
+You're now ready to run the Plant Disease Detection System.
 
 Use the trained model to classify new plant leaf images.
 
