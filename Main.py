@@ -19,17 +19,6 @@ def model_prediction(test_image):
     result = np.argmax(predictions)
     return result
 
-# sidebar
-# st.sidebar.title("Dashboard")
-# app_mode = st.sidebar.selectbox("Select Page", ["Home", "About", "Disease Recognition"])
-
-# Home Page
-# if(app_mode == "Home"):
-#     st.header("Plant Disease Recognintion System")
-#     img_path = 
-#     st.image(img_path, use_column_width=True)
-#     st.markdown
-
 st.header("Plant Disease Recognition")
 test_img = st.file_uploader("Choose an image")
 if(st.button("Show Image")):
